@@ -1,0 +1,66 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# test artifacts
+test-results/
+playwright-report/
+
+# local db files
+*.db
+*.db-journal
+.vercel
+.env*
+spikes/*.bundle.js
+
+# pre-build planning and spikes (local only)
+docs/specs/
+plan/
+spikes/
+tooling/
+
+# demo assets (local only)
+demo/
+docs/demo-script.md
+docs/writeup.html
+docs/AgentHub-writeup.pdf
+
+# scratch / probe tests
+tests/e2e/chatui-probe.spec.ts
+tests/e2e/shot-local*.spec.ts
+
+!.env.example
+
+# local agent tooling
+.github/skills/
+.github/agents/
+.github/hooks/
